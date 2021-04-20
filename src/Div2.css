@@ -1,0 +1,41 @@
+#div2body{padding-top: 4rem;
+    color: white;
+    text-align: center;
+}
+#div2middle{
+    display: grid;grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    color: aqua;
+}
+#div2top label{display: block;
+    text-align:center;
+    
+    
+
+}
+
+
+#div2m3{color: azure;
+    font-size: 2rem;
+    display: block;
+    text-align:center;
+
+}
+
+
+@media(max-width:600px){
+
+
+    #div2body{padding-top: 2rem;
+        font-size: 0.6rem;
+        color: white;
+        text-align: center;
+    }
+    #div2m3{color: azure;
+        font-size: 1rem;
+        display: block;
+        text-align:center;
+    
+    }
+
+
+}

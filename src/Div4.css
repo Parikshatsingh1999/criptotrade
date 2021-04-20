@@ -1,0 +1,52 @@
+body{
+    color: beige;
+    font-size: 1.5rem;
+}
+table{border-collapse:separate;
+    border-spacing:0rem 3rem;
+    text-align: center;
+   
+    
+    
+}
+th{
+    font-size:1.2rem ;
+}
+ tr{font-weight: bolder;
+    text-align: center;
+    background-color: grey;
+}
+table td{ padding:0 4rem;
+height: 5rem;
+    font-size: 1.2rem;
+
+}
+.changed{
+    color: aqua;
+}
+.negative{
+    color: brown;
+}
+
+
+@media(max-width:600px){
+
+    body{
+        color: beige;
+        font-size: 0.5rem;
+    }
+    table{border-collapse:separate;
+        border-spacing:0rem 1rem;
+        text-align: center;
+       }
+       th{
+        font-size:1rem ;
+    }
+    table td{ padding:0 1rem;
+        height: 5rem;
+            font-size: 1rem;
+        
+        }
+
+
+}
